@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafío Todo List</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+    <h1>Todo List</h1>
+    <hr class="division">
+    
+    <h3>Nueva tarea</h3>
+    <div class="task-input">
+        <input type="text" id="inputTarea" placeholder="Escribe una nueva tarea">
+        <button id="agregar_tarea">Agregar</button>
+    </div>
+    
+    <div class="task-stats">
+        <div>Tareas ingresadas: <strong id="totalIngresadas">0</strong></div>
+        <div>Tareas finalizadas: <strong id="totalFinalizadas">0</strong></div>
+    </div>
+
+    <div class="task-list-header">
+        <strong>ID</strong>
+        <strong style="margin-left: 200px;">Tarea</strong>
+    </div>
+    
+    <ul id="listaTareas"></ul>
+    
+    <script src="./assets/js/script.js"></script>
+</body>
+</html>

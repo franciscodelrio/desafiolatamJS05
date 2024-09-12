@@ -1,0 +1,61 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+h1 {
+    font-size: 18pt;
+    text-align: center;
+}
+
+.division {
+    border: 1px solid #333;
+}
+
+h3 {
+    font-size: 12pt;
+    margin-top: 20px;
+}
+
+.task-input {
+    margin-bottom: 20px;
+}
+
+.task-input input {
+    padding: 5px;
+    margin-right: 10px;
+}
+
+.task-stats {
+    margin-bottom: 20px;
+}
+
+.task-list-header {
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+li input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+li button {
+    background-color: red;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 5px;
+}
